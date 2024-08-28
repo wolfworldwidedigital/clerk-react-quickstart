@@ -11,13 +11,17 @@
     "format": "prettier --write ."
   },
   "dependencies": {
-    "@clerk/clerk-react": "^5.2.7",
+    "@clerk/clerk-react": "^5.4.5",
+    "@clerk/elements": "^0.14.3",
+    "@tauri-apps/api": "^1.6.0",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "sharp": "^0.33.5"
   },
   "devDependencies": {
     "@eslint/compat": "^1.1.1",
     "@eslint/js": "^9.7.0",
+    "@tauri-apps/cli": "^1.6.1",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
     "@typescript-eslint/eslint-plugin": "^7.16.0",
